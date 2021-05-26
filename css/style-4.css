@@ -1,0 +1,123 @@
+:root {
+    --orange: rgb(229, 105, 53);
+    --purple: #301342;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.orange {
+    color: var(--orange);
+}
+
+.purple {
+    color: var(--purple);
+}
+
+#supporters {
+    padding: 0;
+    margin: 0;
+}
+
+#supporters h2 {
+    font-family: "Open Sans", sans-serif;
+}
+
+#support_logos {
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    width: 90%;
+}
+
+.logo-footer {
+    margin-top: 0;
+    height: 13%;
+}
+
+.foot-content {
+    margin-top: 0;
+    padding: 0 20px;
+    padding-bottom: 0;
+    background-color: transparent;
+}
+
+.Supporter_logo {
+    border-radius: 50%;
+    margin: 10px;
+    width: 125px;
+}
+
+.brand {
+    text-transform: uppercase;
+}
+
+.brand:first-child {
+    font-size: 50px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.footer_links {
+    gap: 10px;
+}
+
+.footer_links a,
+.social_media a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer_links a:hover,
+.social_media a:hover {
+    color: black;
+}
+
+.footer_bg {
+    width: 100%;
+    position: relative;
+    background: url("../assets/BG4.png") no-repeat scroll center;
+    margin-top: -13%;
+}
+
+.copyright {
+    background-color: white;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    margin: 0;
+    padding: 0;
+}
+
+.copyright p {
+    margin: -15px;
+    padding: 0;
+}
+
+.btn {
+    background-color: var(--orange) !important;
+    z-index: 12;
+    margin-bottom: 15px;
+}
+
+.subscribe input {
+    z-index: 12;
+}
+
+@media (max-width: 767px) {
+    footer {
+        text-align: center;
+    }
+}
+
+@media (max-width: 992px) {
+    .footer_contact,
+    .footer_links {
+        border-top: solid gray 1px;
+        margin-top: 20px;
+        padding: 20px 0 0 0;
+    }
+    .Supporter_logo {
+        width: 125px;
+    }
+}
